@@ -1,0 +1,40 @@
+.card_section{
+    padding: 20px 0px;
+}
+
+.image_container{
+    position: relative;
+}
+
+.image_container img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.description {
+    margin-top: 14px;
+    font-size: 12px;
+    height: 20px;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg,#3c3c3c,#e66728);
+}
+
+.description:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    bottom: 0;
+    left: 100%;
+    border-top: 10px solid #e66728;
+    border-bottom: 10px solid #e66728;
+    border-right: 6px solid transparent;
+}

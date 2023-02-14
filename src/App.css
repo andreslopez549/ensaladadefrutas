@@ -1,0 +1,7 @@
+.active_day {
+    padding:0px 10px 0px 10px;
+    /* padding-bottom: 0px; */
+    color: white!important;
+    background: rgba(0, 0, 236, 0.63);
+    border-radius: 10px 0 0 10px;
+}

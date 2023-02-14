@@ -1,0 +1,95 @@
+.footer_main{
+    background-color: #ff8200;
+    /* margin-top: 10px; */
+    padding: 30px 20px;
+    padding-bottom: 90px;
+
+}
+
+
+
+.information_legal_container h3{
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+}
+
+.information_legal_container ul{
+    padding: 0;
+    list-style: none;
+}
+
+.information_legal_container ul li{
+   padding-top: 15px;
+   margin-bottom: 5px;
+   color: white;
+   font-weight: 400;
+}
+
+.atencion_container h3{
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+}
+
+.atencion_container ul{
+    padding: 0;
+    list-style: none;
+}
+
+.atencion_container ul li{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.acerca_container h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    padding-top: 3px;
+    font-weight: 500;
+}
+
+.social_icon_continer h3{
+    text-transform: uppercase;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+}
+
+.social_icon{
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+    padding-top: 15px;
+}
+
+.social_icon img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.inner_footer{
+    background-color: #3c3c3c;
+    color: #b2b2b2;
+    width: 100%;
+}
+
+.inner_footer p{
+    font-size: 16px;
+    margin: 0;
+}
+
+.logo_footer_container{
+    display: flex;
+    justify-content: end;
+    flex-flow: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+ 

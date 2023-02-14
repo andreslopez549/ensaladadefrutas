@@ -1,0 +1,82 @@
+.passenger_container{
+    width: 25%;
+    margin-top: 0;
+    margin-left: 35px;
+}
+.passengers_box{
+    width: 22%;
+    background: white;
+    position:absolute; 
+    z-index: 5;
+}
+.passenger-count-selection{
+    border-bottom: 1px solid #d8d8d8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem 0 1rem ;
+    width: 100%;
+}
+.item_count{
+    color: #1e4fda;
+    margin: 0 0.5rem 0 0;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+.passenger_count_label{
+    color: #3c3c3c;
+    margin-right: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    line-height: 1rem;
+}
+.passenger_count_sublabel{
+    color: #b2b2b2;
+    padding-top: 0rem;
+    font-size: .75rem;
+}
+.add_btn{
+    background-color: #fafafa!important;
+    background-position: 50%;
+    border: none;
+    border-radius: 50%;
+    border:1px solid #3c3c3c;
+    cursor: pointer;
+    height: 40px!important;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    width: 40px!important;
+}
+.add_btn_svg{
+    color: #3c3c3c !important;
+    font-size:25px !important;
+}
+.subtract_btn_svg{
+    color: #f80606 !important;
+    font-size:25px !important;
+}
+.subtract_btn{
+    background-color: #fafafa!important;
+    background-position: 50%;
+    border: none;
+    border-radius: 50%;
+    border:1px solid #f80606;
+    cursor: pointer;
+    height: 40px!important;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    width: 40px!important;
+}
+
+@media screen and (max-width:767px) {
+    .passenger_container{
+        width:100%;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .passengers_box{
+        width: 50%;
+    }
+}

@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #ff8200 !important;
+    color: #fff !important;
+    padding: 0.5rem 1rem 0.5rem 3rem;
+}
+
+svg#Layer_1 {
+    width: 70px;
+    width: 110px;
+    padding-left: 13px;
+    fill: #fff;
+}
+
+.nav-item.dropdown {
+    padding: 0 60px;
+    font-size: 18px;
+}
+
+.dropdown2.nav-item.dropdown {
+    padding: 0 0px;
+    color: #fff !important;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+button.btn.dropdown-toggle {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.world_icon {
+    font-size: 21px;
+    padding-bottom: 3px;
+}
+
+.inic {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.inic_icon {
+    font-size: 18px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #fff;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+
+.dropdown-menu.show {
+    padding: 25px 0 !important;
+    color: #000 !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    transition: all 0.5s ease !important;
+}
+
+.dropdown-item {
+    color: #555 !important;
+    padding: 0.25rem 2.5rem !important;
+}
+
+a#basic-nav-dropdown1, a#basic-nav-dropdown2, a#basic-nav-dropdown3, a#basic-nav-dropdown4 {
+    color: #fff;
+    transition: all 1s ease !important;
+    font-size: 16px !important;
+}
+
+.dropdown-menu {
+    background-color: #dadada;
+    transition: all 1s ease !important;
+    min-width: 15rem !important;
+}
+
+.dropdown-item:hover {
+    background-color: #ff8200 !important;
+    color: #fff !important;
+}
+
+.dropdown-menu h6 {
+    padding-left: 15px;
+    color: #ff8200 !important;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+button.btn.dropdown-toggle:focus{
+    box-shadow: none !important;
+}
+
+.notPadding.nav-item.dropdown {
+    padding: 0 !important;
+}
+
+button#bg-vertical-dropdown-3 {
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 16px !important;
+}

@@ -1,0 +1,68 @@
+.form_container {
+  padding: 30px 20px;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid orange;
+}
+
+.form_container h3 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: orange;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.form_container label {
+  margin-bottom: 0;
+  color: grey;
+  font-weight: 600;
+  padding: 0;
+}
+
+.form_container input {
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  border: 1px solid orange;
+}
+
+.submit_Btn_container {
+  width: 100%;
+  padding: 20px 20px;
+}
+
+.submit_Btn_container button {
+  position: relative;
+  float: right;
+  border: none;
+  background-color: orange;
+  color: white;
+  padding: 5px 40px;
+  border-radius: 7px;
+}
+.flight_details_card {
+  padding: 40px 20px;
+  margin-top: 40px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.formBox .MuiTextField-root {
+  border: none !important;
+}
+.formBox .MuiFormControl-root {
+  border: none;
+}
+.formBox .MuiOutlinedInput-input {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+.formBox .css-t2qvtp-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+  color: lightgray !important;
+}
+.formBox .css-mg45e5.Mui-error {
+  color: lightgray !important;
+}

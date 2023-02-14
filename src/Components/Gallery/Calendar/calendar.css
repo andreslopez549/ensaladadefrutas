@@ -1,0 +1,94 @@
+.multiCalendar {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  position: absolute;
+  left: -7px;
+  overflow-x: none;
+}
+.calendar_component {
+  width: 70%;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.start_date{
+    border-right: 1px solid lightgrey;
+    width: 48%;
+    height: 100%;
+}
+.end_date{
+    width: 48%
+}
+.react-calendar {
+  border: none !important;
+  width: 100% !important;
+}
+.start_date .react-calendar {
+  padding-right: 10px !important;
+}
+.react-calendar__navigation button:first-child,
+.react-calendar__navigation button:last-child {
+  display: none;
+}
+.react-calendar__tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.6rem !important;
+    color: black !important;
+}
+.react-calendar__tile abbr{
+    font-size: 1rem !important;
+  color: #ff8200 !important;
+
+}
+.start_date .react-calendar .react-calendar__navigation button:nth-child(4) {
+  display: none;
+}
+.end_date .react-calendar .react-calendar__navigation button:nth-child(2) {
+  display: none;
+}
+.react-calendar__month-view__weekdays {
+  background-color: #ff8200;
+}
+.react-calendar__month-view__weekdays abbr {
+  text-decoration: none !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+.react-calendar__month-view__days__day {
+  color: #ff8200 ;
+}
+.react-calendar__tile--active {
+  color: white !important;
+  border-radius: 10px 5px 5px 10px !important;
+}
+.react-calendar__month-view__days {
+  padding-top: 20px !important;
+  /* padding-left: 30px !important; */
+  padding-bottom: 30px !important;
+}
+.react-calendar__month-view__days button {
+  margin: 5px 0 !important;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: white !important;
+}
+.end_date .react-calendar__tile--now {
+  background-color: white !important;
+}
+@media screen and (max-width: 767px) {
+  .calendar_component {
+    width: 85%;
+  }
+  .calendar_container {
+    width: 100%;
+  }
+  .calendar {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,314 @@
+.main_gallery_container {
+  width: 100%;
+}
+.css-u9osun{
+  display: none !important;
+}
+
+.image-gallery-slide .image-gallery-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 600px;
+}
+
+.image-gallery-icon.image-gallery-right-nav {
+  background-color: rgba(60, 60, 60, 0.5);
+  opacity: 0.7 !important;
+  padding: 10px 4px;
+}
+
+.image-gallery-svg {
+  height: 43px !important;
+  width: 38px !important;
+}
+
+.image-gallery-icon.image-gallery-left-nav {
+  background-color: rgba(60, 60, 60, 0.5);
+  opacity: 0.7 !important;
+  padding: 10px 4px;
+}
+.formContainer{
+    position: absolute;
+    /* z-index: 9999; */
+    width:100%;
+    bottom: 30%;
+}
+.filterForm{
+    gap: 5px;
+    background: rgba(60,60,60,0.8);
+    padding: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 12px;
+    position:relative;
+}
+.form_tab {
+  padding: 10px 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.12);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form_bottom_tab {
+  padding: 10px 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 90%, 0.2);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.tab_active {
+  background-color: #ff8200;
+
+}
+.tab_icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.from {
+  background-color: #fff;
+  border: 1px solid #a7a7a7;
+  color: #3c3c3c;
+  height: 64px;
+  padding: 0.5rem;
+  border-radius: 15px !important;
+}
+.from_heading {
+  color: #3c3c3c;
+  margin: 0;
+  font-size: 24px;
+  min-height: 28px;
+}
+.from_main {
+  width: 50%;
+  color: #fff;
+  height: 66px;
+  padding: 0;
+  position: relative;
+  transition: all 0.2s;
+}
+.from_input_box {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.from_input {
+  display: flex;
+  align-items: center;
+  height: 23px;
+  background-color: #fff;
+  border: 0;
+  color: #b2b2b2;
+  margin-left: 0.25rem;
+  width: 100%;
+}
+.from_input:focus-visible{
+    border: none !important;
+}
+.left_right_btn {
+  background-color: #fff;
+  border: 1px solid #a7a7a7;
+  border-radius: 11.5px;
+  height: 38px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 25px;
+}
+.from_input::placeholder {
+  font-size: 12px;
+}
+.from_input:focus{
+    border: none !important;
+    outline: none !important;
+}
+.calendar_container{
+    width: 35%; 
+}
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #a7a7a7;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 64px;
+  margin-left: 30px;
+  margin-right: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.calendar input:focus{
+    border: none !important;
+    outline: none !important;
+}
+.departure {
+  width: 50%;
+  display: inline-flex;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.2s;
+  padding: 0 1rem !important;
+}
+.departure:active {
+  border-bottom: 3px solid #1e4fda;
+}
+.return:active {
+  border-bottom: 3px solid #1e4fda;
+}
+.return {
+  width: 50%;
+  border: 1px solid lightgray;
+  display: inline-flex;
+  flex-direction: row;
+  height: 100%;
+  transition: all 0.2s;
+  padding: 0 1rem !important;
+}
+
+.departure_input {
+  width: 80%;
+  background-color: #fff;
+  border: none;
+  color: #3c3c3c;
+  cursor: pointer;
+}
+.calendar_icon {
+  width: 20%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.passenger {
+  background-color: #fff;
+  border: 1px solid #a7a7a7;
+  color: #3c3c3c;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  justify-content: space-between;
+  padding: 9px;
+  border-radius: 10px;
+}
+.passenger_label {
+  height: 100%;
+  color: #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+.passenger_count {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  font-weight: 400;
+}
+.passenger_icon {
+  align-self: center;
+  justify-content: space-around;
+  max-width: 40px;
+}
+.selectHeading {
+  font-size: 0.875rem;
+}
+.select_text {
+  color: grey;
+}
+#select_from::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px !important;
+
+}
+
+#select_from::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px !important;
+
+}
+
+#select_from::-webkit-scrollbar-thumb {
+  background: rgba(60, 60, 60, 0.8);
+  border-radius: 10px;
+}
+
+#select_from::-webkit-scrollbar-thumb:hover {
+  background: rgba(60, 60, 60, 0.8);
+}
+.select_component {
+  width: 36%;
+  position: absolute;
+  z-index: 8;
+  background-color: white;
+  margin-left: -14px;
+  overflow-y: scroll;
+  height: 400px;
+  cursor: pointer;
+}
+.from_list>li:hover,.from_list>li:hover p,.to_list>li:hover,.to_list>li:hover p,.css-1n2mv2k,.css-1n2mv2k >span{
+    background-color: #ff8200 !important;
+    color: white !important;   
+}
+.select_from{
+    border-bottom: 1px solid #d8d6d6;
+}
+.MuiTextField-root{
+  width:100%;
+  border:none;
+  transition: all 0.3s;
+}
+.MuiOutlinedInput-notchedOutline{
+  border: none !important;
+}
+.MuiOutlinedInput-notchedOutline:not(:last-child){
+  border-right: 1px solid lightgray !important;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  display: none !important;
+}
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root{
+  display: none !important;
+}
+.MuiDateRangePickerDay-day,.MuiSvgIcon-root{
+  color: #ff8200 !important;
+}
+.Mui-selected{
+  color: white !important;
+}
+@media screen and (max-width: 767px) {
+    .formContainer{
+        bottom: -140%;
+    }
+    
+.d-md-flex >.row:first-child{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+  .select_component {
+    width: 80%;
+  }
+
+}
+
+@media screen and (min-width: 768px) and  (max-width: 1024px){
+    .select_component {
+        width: 45%;
+      }
+}
+@media screen and (min-width: 1334px){
+    .select_component {
+        width: 32%;
+      }
+}
